@@ -36,8 +36,46 @@ body {
   padding: 1rem;
   border-radius: 0.5rem;
   width: 15rem;
+  position: relative;
 }
 h1 {
   line-height: 2rem;
   padding-bottom: 1rem;
+}
+p{
+  padding-bottom: 3rem;
+}
+
+.note-create-form {
+  background-color: #4a4949;
+  width: fit-content;
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  margin-inline: 2rem;
+  display: flex;
+  gap: 1rem;
+  border-radius: 5px;
+}
+.note-create-form input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  padding-right: 5rem;
+}
+ button {
+  padding-inline: 1rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+button:active{
+  scale: 0.95;
+}
+#delete-btn{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding-inline: 1rem;
 }
